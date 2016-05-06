@@ -1,0 +1,28 @@
+div {
+	color: #900;
+	float: left;
+	width: 100px;
+}
+.h1 {
+	font-family: "Georgia";
+	color: #EDEDED;
+	text-decoration: underline;
+}
+background-color {
+	background-color: #FFC;
+}
+body {
+	background-color: #FFC;
+}
+.h1 {
+	color: #CCF;
+	text-align: center;
+}
+.title {
+	color: #96F;
+	text-decoration: underline;
+}
+text {
+	background-color: #FFF;
+	text-align: center;
+}

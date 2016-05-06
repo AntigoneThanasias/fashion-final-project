@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="clothing" type="boolean" value="true" -->
+<!-- TemplateParam name="accessories" type="boolean" value="true" -->
+<!-- TemplateParam name="greeting-cards" type="boolean" value="true" -->
+<!-- TemplateParam name="contact" type="boolean" value="true" -->
+<style type="text/css">
+@import url("../style.css");
+</style>
+</head>
+
+<body>
+<h1 class="title">LISBY LORIIS	</h1>
+
+<div class="wrapper">
+	<div class="navigation">
+<ul>
+  <li><a href="../index.html">Home  </a></li>
+  <li><a href="../biography/laureta-ismailaj.html">Laureta Ismailaj</a></li>
+  <li><a href="../clothing/index.html">Clothing</a><!-- TemplateBeginIf cond="_document['clothing']" -->
+    <blockquote>
+      <ul>
+        <li><a href="../clothing/gowns.html">Gowns</a></li>
+        <li><a href="../clothing/dresses.html">Dresses</a></li>
+        <li><a href="../clothing/casual-dress.html">Semi-formal</a></li>
+      </ul>
+    </blockquote>
+<!-- TemplateEndIf --> </li>
+  <li><a href="../accessories/index.html">Accessories</a><!-- TemplateBeginIf cond="accessories" -->
+    <blockquote>
+      <ul>
+        <li><a href="../accessories/purses.html">Purses</a></li>
+        <li><a href="../accessories/necklaces.html">Necklaces</a></li>
+      </ul>
+    </blockquote>
+<!-- TemplateEndIf --> </li>
+  <li><a href="../greeting-cards/index.html">Greeting Cards</a><!-- TemplateBeginIf cond="_document['greeting-cards']" -->
+    <blockquote>
+      <ul>
+        <li><a href="../greeting-cards/fold-style.html">Fold Style</a></li>
+        <li><a href="../greeting-cards/seasonal.html">Seasonal</a></li>
+        <li><a href="../greeting-cards/plain.html">Plain</a></li>
+        <li><a href="../greeting-cards/thank-you.html">Thank You</a></li>
+      </ul>
+    </blockquote>
+<!-- TemplateEndIf --></li>
+  <li><a href="../contact/index.html">Contact</a>
+<blockquote><!-- TemplateBeginIf cond="contact" -->
+      <ul>
+        <li><a href="../contact/social-media.html">Social Media    </a></li>
+      </ul>
+    <!-- TemplateEndIf --></blockquote>
+  </li>
+</ul>
+</div> </div>
+<!-- TemplateBeginEditable name="Content" -->
+<h2 class="h1">The Designs of Laureta Ismailaj</h2>
+<!-- TemplateEndEditable -->
+</body>
+</html>
